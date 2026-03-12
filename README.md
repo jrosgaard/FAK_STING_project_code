@@ -1,23 +1,30 @@
 Investigating Dual-Targeting of FAK and STING for Modulating the Tumor Immune Microenvironment Using an In Vitro NK-92 Model and TCGA Transcriptome Data.
 
-This repo contains the code used for The Cancer Genome Atlas (TCGA) and CIBERSORT data.
+This repo contains the code used for analysis of The Cancer Genome Atlas (TCGA) and CIBERSORT data for PTK2 and STING1 differential expression.
+
 The TCGA datasets imported are sorted into two subgroups:
 1. PTK2-high / STING1-low
 2. PTK2-low / STING1-high
+
 
 The Jupyter Notebook file requires the TCGA COAD and READ datasets and the CIBERSORT dataset to be downloaded locally.
 
 The TCGA datasets can be found here: 
 https://portal.gdc.cancer.gov/analysis_page?app=Downloads
 
+
 Filter by:
+
 Data Category: Transcriptome Profiling 
+
+and
+
 Data Type: Gene Expression Quantification
 
 The CIBERSORT dataset can be found here:
 https://gdc.cancer.gov/about-data/publications/panimmune
 
-Use the file below:
+Use the file here:
 CIBERSORT immune fractions - TCGA.Kallisto.fullIDs.cibersort.relative.tsv
 
 TCGA Acknowledgement:
